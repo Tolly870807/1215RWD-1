@@ -1,0 +1,350 @@
+body{
+	width:100%;
+	
+}
+
+@media screen and (min-width:0px) {
+	/*自己用的*/
+	
+	ul,li{list-style:none;}
+	
+	.background{
+	
+	}
+	
+	.navnav1{
+		width:100%;
+		text-align: right;
+		margin-top:-40%;
+
+	}
+	
+	.navtext{
+		color: rgb(255, 255, 255);
+		font-size: 15px;
+		font-family: "Segoe UI",sans-serif;
+		text-shadow: black;
+		letter-spacing:1px;
+		margin:-15px 9px;
+	}
+	
+	.about{
+		color: rgb(112, 112, 112);
+		padding-top:20%;
+		margin-left:20%;
+		margin-right:20%;
+		margin-bottom:4.5%;
+		text-align: center;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	.text{
+		color: rgb(112, 112, 112);
+		margin-left:8.5%;
+		margin-right:8.5%;
+		letter-spacing:1px;
+		line-height: 200%;
+		text-align: center;
+		font-size: 8px;
+		font-family: "Segoe UI","微軟正黑體",sans-serif;
+		margin-bottom:20%;
+	}
+	
+	.card{
+		align-items: center;
+		border:0;
+	}
+
+	.card img{
+		
+	}
+	
+	.row{
+		display:flex;
+		justify-content:space-between;
+		margin-top: 7%;
+		margin-right:9.5%;
+		margin-left:9.5%;
+	}
+	
+	
+	.name{
+		color: rgb(112, 112, 112);
+		letter-spacing:1px;
+		font-size: 8px;
+		font-family: "Segoe UI","微軟正黑體",sans-serif;
+		margin-top:10%;
+		margin-bottom:30%;
+	}
+	footer {
+		background-color: #F2F2F2;
+		height: 33px;
+		margin:0 auto;
+		width: 100%;
+	}
+	
+	.icon{
+	}
+	
+	.allicon{
+		display:flex;
+		justify-content:center;
+		padding-top:2%;
+	}
+
+	.allicon img{
+		width:auto;
+		height:auto;
+	}
+
+	.footertext{
+		color: rgb(112, 112, 112);
+		margin:0;
+		margin-top:-7%;
+		text-align: right;
+		letter-spacing:1.5px;
+		font-size: 8px;
+		font-family: "Segoe UI","微軟正黑體",sans-serif;
+	}
+	.rwd-hide{
+		display: none;
+	}
+	.rwd-show{
+		display: inherit;
+	}
+	
+	}
+
+	
+
+
+@media screen and (min-width: 768px) {
+/*自己用的*/
+
+ul,li{list-style:none;}
+
+.background{
+
+}
+
+.navnav1{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+	margin-top:-4.6%;
+	padding-inline-start:0;
+}
+
+.navtext{
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-family: "Segoe UI",sans-serif;
+	text-shadow: black;
+	letter-spacing:1px;
+}
+
+.about{
+	color: rgb(112, 112, 112);
+	padding-top:6.5%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:4.5%;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text{
+	color: rgb(112, 112, 112);
+	margin-left:8.5%;
+	margin-right:8.5%;
+	letter-spacing:1px;
+	line-height: 200%;
+	text-align: center;
+	font-size: 15px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+}
+
+.card{
+	align-items: center;
+	border:0;
+	
+}
+
+.row{
+	display:flex;
+	justify-content:space-between;
+	margin-top: 7%;
+	margin-right:9.5%;
+	margin-left:9.5%;
+}
+
+
+.name{
+	color: rgb(112, 112, 112);
+	letter-spacing:1px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+	margin-top:10%;
+	margin-bottom:50%;
+	font-size: 15px;
+}
+footer {
+	background-color: #F2F2F2;
+	height: 80px;
+	margin:0 auto;
+	width: 100%;
+}
+
+.icon{
+	margin-left:2%;
+}
+
+
+.allicon{
+	display:flex;
+	justify-content:center;
+	padding-top:3%;
+}
+
+.footertext{
+	color: rgb(112, 112, 112);
+	margin-top: -5.5%;
+	text-align: right;
+	letter-spacing:5px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+	font-size: 20px;
+	margin-left:5%;
+}
+.rwd-hide{
+	display: inherit;
+}
+
+.rwd-show{
+	display: none;
+}
+
+.col-md-3{
+	flex:none;
+	max-width: none;
+	width:100%;
+}
+
+
+}
+
+
+@media screen and (min-width: 1920px) {
+/*自己用的*/
+
+ul,li{list-style:none;}
+
+.background{
+
+}
+
+.navnav1{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+	margin-top:-4.6%;
+}
+
+.navtext{
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	font-family: "Segoe UI",sans-serif;
+	text-shadow: black;
+	letter-spacing:1px;
+	padding-inline-start:0;
+}
+
+.about{
+	color: rgb(112, 112, 112);
+	padding-top:6.5%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:4.5%;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text{
+	color: rgb(112, 112, 112);
+	margin-left:8.5%;
+	margin-right:8.5%;
+	letter-spacing:1px;
+	line-height: 200%;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+}
+
+.card{
+	align-items: center;
+	border:0;
+}
+
+.row{
+	display:flex;
+	justify-content:space-between;
+	margin-top:7;
+	margin-right:9.5%;
+	margin-left:9.5%;
+}
+
+
+.name{
+	color: rgb(112, 112, 112);
+	letter-spacing:1px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+	margin-top:10%;
+	margin-bottom:50%;
+	font-size: 30px;
+}
+footer {
+	background-color: #F2F2F2;
+	height: 146px;
+	margin:0 auto;
+	width: 100%;
+}
+
+.icon{
+	margin-left:2%;
+}
+
+.allicon{
+	display:flex;
+	justify-content:center;
+	padding-top:3%;
+}
+
+.footertext{
+	color: rgb(112, 112, 112);
+	margin-top: 1%;
+	text-align: center;
+	letter-spacing:5px;
+	font-family: "Segoe UI","微軟正黑體",sans-serif;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.rwd-hide{
+	display: inherit;
+}
+
+.rwd-show{
+	display: none;
+}
+
+.col-md-3{
+	flex:0 0 25%;
+	max-width: 25%;
+	width:100%;
+}
+
+.container{
+	display:block;
+}
+}
